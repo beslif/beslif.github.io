@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Sobre
 ---
 
-Bem-vindo ao site oficial do BESLIF!
+O BESLIF é um projeto que visa aliar a psicologia à educação financeira, de modo a garantir a melhor vida possível aos seus usuários.
