@@ -1,4 +1,5 @@
 remote_theme: daviddarnes/garth
 title: BESLIF
 description: Viva sua melhor vida
-plugins: jekyll-remote-theme
+plugins: 
+- jekyll-remote-theme
