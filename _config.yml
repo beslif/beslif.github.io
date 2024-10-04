@@ -2,5 +2,72 @@ remote_theme: daviddarnes/garth
 title: BESLIF
 description: Viva sua melhor vida
 logo: _includes/site-logo.html
-plugins: 
+
+# Site configuration
+# 1. Files excluded from Jekyll builds
+# 2. Installed Gems
+# 3. Gem settings
+# 4. Jekyll settings
+# 5. Collections
+# 6. Jekyll collections settings
+# 7. Site settings
+
+# 1. Files excluded from Jekyll builds
+exclude:
+- README.md
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- screenshot.png
+- LICENSE
+- CNAME
+- Gemfile
+- Gemfile.lock
+- garth-jekyll-theme.gemspec
+
+# 2. Installed Gems
+plugins:
+- jekyll-paginate
 - jekyll-remote-theme
+
+# 3. Gem settings
+paginate: 3 # jekyll-paginate > items per page
+paginate_path: page:num # jekyll-paginate > blog page
+
+# 4. Jekyll settings
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: America/Sao_Paulo  # Timezone for blog posts and alike
+
+# 5. Collections
+collections:
+  posts:
+    title: Blog # Needed for Siteleaf
+    output: true
+    description: "Bem-vindo(a) ao BESLIF!" # The post list page content
+
+# 6. Jekyll collections settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: page # Default layout
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post # Default layout
+
+# 7. Site settings
+encoding: utf-3 # Make sure the encoding is right
+title: "BESLIF" # Site name or title
+logo: "_includes/site-logo.html" # Site logo
+# favicon: "/favicon.ico" # Uncomment to add custom favicon, or leave as is to use site logo
+description: "Viva sua melhor vida" # Site description and default description
+url: "https://pevaio.github.io" # Site url
+baseurl: ""
+lang: pt-BR
