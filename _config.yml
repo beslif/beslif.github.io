@@ -49,7 +49,7 @@ defaults:
       layout: post # Default layout
 
 # 7. Site settings
-encoding: utf-3 # Make sure the encoding is right
+encoding: utf-8 # Make sure the encoding is right
 title: "BESLIF" # Site name or title
 logo: "_includes/site-logo.html" # Site logo
 # favicon: "/favicon.ico" # Uncomment to add custom favicon, or leave as is to use site logo
