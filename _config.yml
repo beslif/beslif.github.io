@@ -36,7 +36,7 @@ excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: America/Sao_Paulo  # Timezone for blog posts and alike
 
 # 5. Collections
-collections:
+collections: posts
   posts:
     title: Home # Needed for Siteleaf
     output: true
@@ -52,7 +52,7 @@ defaults:
       layout: page # Default layout
   -
     scope:
-      path: ""
+      path: _posts
       type: posts
     values:
       layout: post # Default layout
