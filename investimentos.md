@@ -1,6 +1,6 @@
 ---
 title: Investimentos
-permalink: basename
+permalink: /investimentos/
 layout: page
 ---
 
