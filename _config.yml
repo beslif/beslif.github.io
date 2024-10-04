@@ -9,6 +9,7 @@
 
 # 1. Files excluded from Jekyll builds
 exclude:
+- README.md
 
 # 2. Installed Gems
 plugins:
