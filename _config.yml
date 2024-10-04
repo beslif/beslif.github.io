@@ -1,62 +1,40 @@
+---
+title: BESLIF
+timezone: America/Sao_Paulo
+collections:
+  posts:
+    title: Home
+    output: true
+    description: Bem-vindo(a) ao BESLIF!
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
 remote_theme: daviddarnes/garth
-
-# Site configuration
-# 1. Files excluded from Jekyll builds
-# 2. Installed Gems
-# 3. Gem settings
-# 4. Jekyll settings
-# 5. Collections
-# 6. Jekyll collections settings
-# 7. Site settings
-
-# 1. Files excluded from Jekyll builds
 exclude:
 - README.md
-
-# 2. Installed Gems
 plugins:
 - jekyll-paginate
 - jekyll-remote-theme
-
-# 3. Gem settings
-paginate: 3 # jekyll-paginate > items per page
-paginate_path: page:num # jekyll-paginate > blog page
-
-# 4. Jekyll settings
+paginate: 3
+paginate_path: page:num
 sass:
-  style: compressed # Style compression
-permalink: none  # Permalink style (/YYYY/MM/DD/page-name/)
-excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: America/Sao_Paulo  # Timezone for blog posts and alike
-
-# 5. Collections
-collections:
-  posts:
-    title: Home # Needed for Siteleaf
-    output: true
-    description: "Bem-vindo(a) ao BESLIF!" # The post list page content
-
-# 6. Jekyll collections settings
-defaults:
-  -
-    scope:
-      path: ""
-      type: pages
-    values:
-      layout: page # Default layout
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: post # Default layout
-
-# 7. Site settings
-encoding: utf-8 # Make sure the encoding is right
-title: "BESLIF" # Site name or title
-logo: "_includes/site-logo.html" # Site logo
-# favicon: "/favicon.ico" # Uncomment to add custom favicon, or leave as is to use site logo
-description: "Viva sua melhor vida" # Site description and default description
-url: "https://pevaio.github.io" # Site url
-baseurl: ""
+  style: compressed
+permalink: none
+excerpt_separator: "<!-- more -->"
+encoding: utf-8
+logo: _includes/site-logo.html
+description: Viva sua melhor vida
+url: https://pevaio.github.io
+baseurl: ''
 lang: pt-BR

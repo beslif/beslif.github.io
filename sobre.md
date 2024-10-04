@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Sobre
-permalink: :basename
+permalink: basename
+layout: page
 ---
 
 O BESLIF é um projeto que visa aliar a psicologia à educação financeira, de modo a garantir a melhor vida possível aos seus usuários.

@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Investimentos
-permalink: :basename
+permalink: basename
+layout: page
 ---
 
 ### Aqui você verá os investimentos recomendados.
