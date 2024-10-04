@@ -43,7 +43,7 @@ timezone: America/Sao_Paulo  # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Blog # Needed for Siteleaf
+    title: Home # Needed for Siteleaf
     output: true
     description: "Bem-vindo(a) ao BESLIF!" # The post list page content
 
@@ -57,7 +57,7 @@ defaults:
       layout: page # Default layout
   -
     scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: post # Default layout
