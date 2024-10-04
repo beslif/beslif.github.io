@@ -41,7 +41,7 @@ excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: America/Sao_Paulo  # Timezone for blog posts and alike
 
 # 5. Collections
-collections: _posts
+collections: pevaio.github.io/_posts
   posts:
     title: Blog # Needed for Siteleaf
     output: true
