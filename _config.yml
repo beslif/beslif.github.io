@@ -46,13 +46,13 @@ collections:
 defaults:
   -
     scope:
-      path: ""
+      path:
       type: pages
     values:
       layout: page # Default layout
   -
     scope:
-      path: ""
+      path:
       type: posts
     values:
       layout: post # Default layout
