@@ -18,11 +18,11 @@
 		{% else %}
 			<link rel="shortcut icon" href="{{ site.logo }}">
 		{% endif %}
+		<body>
+			{{ content }}
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="/assets/_colors.scss">
+		</body>
 	</head>
-	<body>
-		{{ content }}
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="_colors.scss">
-	</body>
 </html>
