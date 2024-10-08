@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "pt-BR" }}">
+<html lang="{{ site.lang | default: "en-US" }}">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		{% if page.collectionpage %}
@@ -18,13 +18,12 @@
 		{% else %}
 			<link rel="shortcut icon" href="{{ site.logo }}">
 		{% endif %}
-	
+
 	</head>
 	<body>
-		
-		{{ content }}
-		
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
 
+		{{ content }}
+
+		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700|Neuton:400,700" rel="stylesheet">
 	</body>
 </html>
