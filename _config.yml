@@ -6,6 +6,10 @@ collections:
     title: Home
     output: true
     description: Bem-vindo(a) ao BESLIF!
+  investimentos:
+    title: Investimentos
+    output: true
+    description: Aqui você verá os investimentos recomendados.
   uploads:
     title: Uploads
     output: true
