@@ -1,7 +1,7 @@
 ---
 title: Investimentos
 permalink: "/investimentos/"
-layout: home
+layout: investimentos
 collectionpage: investimentos
 ---
 
