@@ -1,6 +1,7 @@
 ---
 title: Olá, leitor!
 date: 2024-10-04 13:37:00 -03:00
+layout: post
 ---
 
 Não sabemos se você escaneou um dos QR Codes ou se alguém te indicou esse site, mas uma coisa é certa: se você deseja potencializar sua vida financeira, está no lugar certo! Nesse artigo você conhecerá mais sobre o [BESLIF](https://beslif.github.io/sobre), um projeto de empreendedorismo que busca conciliar a saúde mental à vida financeira, a fim de garantir aos seus usuários a melhor vida possível.
