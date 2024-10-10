@@ -1,8 +1,8 @@
 ---
 title: Investimentos
 permalink: "/investimentos/"
-layout: page
-collectionpage: investimentos
+layout: home
+collectionpage: posts
 ---
 
 Aqui você verá os investimentos recomendados.
