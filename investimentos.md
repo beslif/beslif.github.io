@@ -1,6 +1,6 @@
 ---
 title: Investimentos
-permalink: /investimentos/
+permalink: "/investimentos/"
 layout: page
 collectionpage: investimentos
 ---
