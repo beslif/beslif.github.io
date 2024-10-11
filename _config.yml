@@ -37,7 +37,7 @@ sass:
 permalink: none
 excerpt_separator: "<!-- more -->"
 encoding: utf-8
-logo: _includes/site-logo.html
+logo: _includes/logo.html
 description: Viva sua melhor vida
 url: https://beslif.github.io
 baseurl: 
