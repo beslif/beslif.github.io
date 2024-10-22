@@ -16,7 +16,7 @@ Bem-vindo ao nosso blog de investimentos! Aqui, apresentamos as melhores oportun
     -   **Descrição**: Investimento em títulos públicos que acompanham a taxa Selic.
     -   **Rentabilidade**: Em torno de 13% ao ano, com alta liquidez.
     -   **Vantagens**: Segurança e proteção contra oscilações de mercado.
-2.  **CDBs de Grandes Bancos**
+.  **CDBs de Grandes Bancos**
     
     -   **Descrição**: Certificados de Depósito Bancário emitidos por instituições sólidas.
     -   **Rentabilidade**: Até 120% do CDI.
@@ -33,7 +33,7 @@ Bem-vindo ao nosso blog de investimentos! Aqui, apresentamos as melhores oportun
         -   **MXRF11 (Maxi Renda)**
     -   **Rentabilidade**: Média de 7% a 10% ao ano.
     -   **Vantagens**: Diversificação em imóveis sem a necessidade de compra física.
-2.  **Ações de Empresas Consolidadas**
+.  **Ações de Empresas Consolidadas**
     
     -   **Descrição**: Investir em ações de empresas com histórico sólido, como bancos e commodities.
     -   **Exemplos**:
@@ -50,7 +50,7 @@ Bem-vindo ao nosso blog de investimentos! Aqui, apresentamos as melhores oportun
     -   **Descrição**: Investimentos em moedas digitais, como Bitcoin e Ethereum.
     -   **Rentabilidade**: Extremamente volátil, com possibilidades de altas e quedas bruscas.
     -   **Vantagens**: Potencial de lucro significativo em curto prazo.
-2.  **Ações de Startups**
+.  **Ações de Startups**
     
     -   **Descrição**: Investir em empresas emergentes, com alto potencial de crescimento.
     -   **Exemplos**:
