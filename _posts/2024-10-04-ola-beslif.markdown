@@ -9,7 +9,7 @@ Não sabemos se você escaneou um dos QR Codes ou se alguém te indicou esse sit
 ### Quem é o BESLIF?
 
 O BESLIF é formado por
-- [Pedro Carvalho](https://pevaio.github.io)
+- Pedro Carvalho
 - João Lucas Cunha
 - Enzo Leles
 - Éttore Cazarotti
