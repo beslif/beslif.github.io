@@ -1,5 +1,85 @@
 ---
 title: Home
 layout: home
-collectionpage: posts
 ---
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Inicial</title>
+    <link rel="stylesheet" href="assets/styles.scss">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bem-vindo à Minha Página Inicial</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#serviços">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Seu espaço para crescer</h2>
+                <p>Descubra conteúdos e serviços que farão a diferença na sua jornada.</p>
+                <a href="#serviços" class="btn">Saiba Mais</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="info">
+            <div class="container">
+                <h2>Sobre Nós</h2>
+                <p>Estamos aqui para ajudar você a alcançar seus objetivos com qualidade e dedicação.</p>
+                <img src="https://via.placeholder.com/400" alt="Imagem sobre nós">
+            </div>
+        </section>
+
+        <section id="serviços" class="services">
+            <div class="container">
+                <h2>Nossos Serviços</h2>
+                <div class="service-card">
+                    <h3>Consultoria</h3>
+                    <p>Oferecemos consultoria especializada em diversas áreas.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Desenvolvimento</h3>
+                    <p>Desenvolvemos soluções sob medida para suas necessidades.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Treinamentos</h3>
+                    <p>Capacite sua equipe com nossos treinamentos práticos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <form id="contactForm">
+                    <input type="text" placeholder="Seu Nome" required>
+                    <input type="email" placeholder="Seu E-mail" required>
+                    <textarea placeholder="Sua Mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Minha Página Inicial. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
