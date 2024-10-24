@@ -9,7 +9,7 @@ O BESLIF é um projeto que visa aliar a psicologia à educação financeira, de 
 ### Quem é o BESLIF?
 
 O BESLIF é formado por
-- [Pedro Carvalho](https://pevaio.github.io)
+- Pedro Carvalho
 - João Lucas Cunha
 - Enzo Leles
 - Éttore Cazarotti
