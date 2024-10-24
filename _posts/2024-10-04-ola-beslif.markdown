@@ -18,4 +18,4 @@ O BESLIF é formado por
 
 ### Por que criamos o BESLIF?
 
-Percebemos que muitas pessoas sofrem de problemas graves de saúde mental, como depressão, ansiedade etc. devido a problemas financeiros: ´é evidente que uma pessoa endividada, por exemplo, não será plenamente feliz. O desejo de resolver tais problemas nos levou à idealização do BESLIF.
+Percebemos que muitas pessoas sofrem de problemas graves de saúde mental, como depressão, ansiedade etc. devido a problemas financeiros: é evidente que uma pessoa endividada, por exemplo, não será plenamente feliz. O desejo de resolver tais problemas nos levou à idealização do BESLIF.
