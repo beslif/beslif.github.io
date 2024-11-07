@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Juros Compostos com Aporte Mensal</title>
+    <style>
+        body {
+            font-family: "Roboto Slab", sans-serif;
+            padding: 20px;
+            background-color: #00002d;
+        }
+        h1 {
+            text-align: center;
+            color: #40B7FC;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #00002d;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+        }
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #40B7FC;
+            color: #00002d;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #40B7FC;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #40B7FC;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Calculadora de Juros Compostos com Aporte Mensal</h1>
+
+    <div class="container">
+        <label for="principal">Valor Principal (R$):</label>
+        <input type="number" id="principal" placeholder="Digite o valor principal" required>
+
+        <label for="taxa">Taxa de Juros (% ao ano):</label>
+        <input type="number" id="taxa" placeholder="Digite a taxa de juros" required>
+
+        <label for="tempo">Tempo (em anos):</label>
+        <input type="number" id="tempo" placeholder="Digite o tempo em anos" required>
+
+        <label for="aporte">Aporte Mensal (R$):</label>
+        <input type="number" id="aporte" placeholder="Digite o valor do aporte mensal" required>
+
+        <button onclick="calcularJurosCompostos()">Calcular</button>
+
+        <div class="result" id="resultado"></div>
+    </div>
+
+    <script>
+        // Função para calcular juros compostos com aporte mensal
+        function calcularJurosCompostos() {
+            // Obter os valores inseridos
+            let principal = parseFloat(document.getElementById('principal').value);
+            let taxa = parseFloat(document.getElementById('taxa').value);
+            let tempo = parseFloat(document.getElementById('tempo').value);
+            let aporte = parseFloat(document.getElementById('aporte').value);
+            
+            // Validar se todos os campos foram preenchidos
+            if (isNaN(principal) || isNaN(taxa) || isNaN(tempo) || isNaN(aporte) || principal <= 0 || taxa <= 0 || tempo <= 0 || aporte < 0) {
+                document.getElementById('resultado').innerHTML = "Por favor, preencha todos os campos com valores válidos.";
+                return;
+            }
+
+            // Converter taxa de juros anual para mensal (se for anual)
+            let taxaMensal = taxa / 12 / 100;
+            let meses = tempo * 12;
+
+            // Fórmula de juros compostos com aporte mensal
+            let montante = principal * Math.pow(1 + taxaMensal, meses) + aporte * ((Math.pow(1 + taxaMensal, meses) - 1) / taxaMensal);
+
+            // Exibir o resultado
+            document.getElementById('resultado').innerHTML = O montante final após ${tempo} ano(s) será: R$ ${montante.toFixed(2)};
+        }
+    </script>
+
+</body>
+</html>
