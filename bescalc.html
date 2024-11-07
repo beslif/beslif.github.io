@@ -5,11 +5,12 @@ layout: page
 ---
 
 
-<!DOCTYPE html>
+
+
+  <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Juros Compostos com Aporte Mensal</title>
     <style>
         /* Estilo global */
@@ -17,8 +18,8 @@ layout: page
             font-family: "Roboto Slab", sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000000; /* Fundo preto */
-            color: #fff; /* Cor do texto em branco */
+            background-color: #00002d;
+            color: #fff;
         }
 
         /* Título */
@@ -31,10 +32,10 @@ layout: page
 
         /* Container principal */
         .container {
-            max-width: 800px; /* Tamanho adequado para telas maiores */
+            /* Tamanho adequado para telas maiores */
             margin: 0 auto;
             padding: 40px;
-            background-color: #1a1a3b; /* Cor de fundo escura para o container */
+            background-color: #1a1a3b; /* Cor de fundo escura */
             border-radius: 8px;
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
             margin-top: 30px;
@@ -52,12 +53,12 @@ layout: page
         /* Campos de input */
         input[type="number"] {
             width: 100%;
-            padding: 12px;
+            padding: 12px;h
             margin: 8px 0;
             border: 1px solid #ccc;
             border-radius: 5px;
-            background-color: #333; /* Cor de fundo escura para inputs */
-            color: #fff; /* Cor do texto nos inputs */
+            background-color: #333;
+            color: #fff;
             font-size: 1.1em;
         }
 
@@ -88,7 +89,7 @@ layout: page
             font-size: 1.5em;
             font-weight: bold;
             color: #40B7FC;
-            background-color: #1a1a3b; /* Fundo escuro para o resultado */
+            background-color: #1a1a3b;
             padding: 25px;
             border-radius: 8px;
             text-align: center;
@@ -96,11 +97,11 @@ layout: page
 
         .result span {
             font-size: 1.8em;
-            color: #ffdb58; /* Cor amarela para o valor final */
+            color: #ffdb58;
         }
 
         /* Responsividade: apenas ajustes em telas menores */
-        @media (max-width: 768px) {
+        @media {
             h1 {
                 font-size: 2em;
             }
@@ -165,7 +166,7 @@ layout: page
             let montante = principal * Math.pow(1 + taxaMensal, meses) + aporte * ((Math.pow(1 + taxaMensal, meses) - 1) / taxaMensal);
 
             // Exibir o resultado
-            document.getElementById('resultado').innerHTML = `O montante final após ${tempo} ano(s) será: <span>R$ ${montante.toFixed(2)}</span>`;
+            document.getElementById('resultado').innerHTML = O montante final após ${tempo} ano(s) será: <span>R$ ${montante.toFixed(2)}</span>;
         }
     </script>
 
