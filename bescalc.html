@@ -26,7 +26,7 @@ layout: page
             background-color: #00002d;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin-left: 0; /* Alinha o container à esquerda */
+            margin-left: 0;
         }
         label {
             font-weight: bold;
@@ -58,6 +58,14 @@ layout: page
             font-size: 18px;
             font-weight: bold;
             color: #40B7FC;
+            background-color: #1a1a3b; /* Fundo escuro para destacar */
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .result span {
+            font-size: 22px;
+            color: #ffdb58; /* Cor de destaque para o valor final */
         }
     </style>
 </head>
@@ -80,7 +88,10 @@ layout: page
 
         <button onclick="calcularJurosCompostos()">Calcular</button>
 
-        <div class="result" id="resultado"></div>
+        <!-- Área do resultado -->
+        <div class="result" id="resultado">
+            <span>Insira os dados e clique em calcular.</span>
+        </div>
     </div>
 
     <script>
@@ -98,7 +109,7 @@ layout: page
                 return;
             }
 
-            // Converter taxa de juros anual para mensal (se for anual)
+            // Converter taxa de juros anual para mensal
             let taxaMensal = taxa / 12 / 100;
             let meses = tempo * 12;
 
@@ -106,7 +117,7 @@ layout: page
             let montante = principal * Math.pow(1 + taxaMensal, meses) + aporte * ((Math.pow(1 + taxaMensal, meses) - 1) / taxaMensal);
 
             // Exibir o resultado
-            document.getElementById('resultado').innerHTML = O montante final após ${tempo} ano(s) será: R$ ${montante.toFixed(2)};
+            document.getElementById('resultado').innerHTML = `O montante final após ${tempo} ano(s) será: <span>R$ ${montante.toFixed(2)}</span>`;
         }
     </script>
 
