@@ -1,3 +1,9 @@
+---
+title: Edição 3
+date: 2024-11-07 16:30 -03:00
+layout: post
+---
+
 # Blog de Investimentos: Melhores Oportunidades do Dia
 
 Bem-vindo ao nosso blog de investimentos! Aqui, apresentamos as melhores oportunidades do dia, divididas em três categorias: sem risco, médio risco e alto risco. Escolha o que melhor se adapta ao seu perfil e objetivos financeiros!
